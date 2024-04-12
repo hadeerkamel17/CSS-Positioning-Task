@@ -1,71 +1,57 @@
 body {
-    height: 3000px;
+    height: 4000px;
 }
-nav {
+
+.navmenu {
     background-color: #282A35;
     position: fixed;
     color: #f1f1f1;
     width: 100%;
-    height: 50px;
     z-index: 999;
 }
-nav > ul {
-    margin: 5px;
-    width: 100%;
-    
-}
-.navmenu li {
+.navmenu a {
     display: inline-block;
-    padding: 10px;
-}
-.navmenu li a {
     font-size: 15px;
     text-decoration: none;
-    line-height: 1.5;
     color: #f1f1f1;
-    padding: 5px 15px 5px 15px !important;
+    padding: 10px 15px 10px 15px !important;
 }
 
-.navmenu li a:active {
+/* .navmenu a:active {
     background-color: #04AA6D !important;
     color: #fff !important;
-}
-.navmenu li a:hover {
+} */
+body > nav > a:nth-child(1) {
     background-color: #04AA6D !important;
     color: #fff !important;
+} 
+
+.navmenu a:hover {
+    background-color: #20b17c !important;
+    color: #fff !important;
 }
-div {
+/* div {
     height: 300px;
     width: 200px;
     position: relative;
     top: 60px;
-}
-aside {
-    width: 50%;
-    height: 400px;
+} */
+
+.sidemenu {
+    background-color: #E7E9EB !important;
+    width: 17%;
     position: sticky;
     top: 0;
 }
-.sidemenu {
-    background-color: #E7E9EB !important;
-    width: 100%;
-    padding-top: 20px;
-}
-.sidemenu ul {
-    
+.sidemenu a {
     display: block;
-}
-aside > ul > li:nth-child(n) {
-    list-style-type: none !important;
-    padding: 10px;
-}
-
-aside > ul > li:nth-child(n) > a {
     text-decoration: none !important;
     line-height: 1.5;
     padding: 5px 15px 5px 15px !important;
+    color: black;
 }
-aside > ul > li:nth-child(n) > a:hover {
+
+.sidemenu a:hover {
     background-color: #04AA6D !important;
     color: #fff !important;
 
