@@ -16,7 +16,7 @@ nav a {
     color: #f1f1f1;
     padding: 10px 15px 10px 15px !important;
 }
-.active {
+nav .active {
     background-color: #04AA6D !important;  
 }
 
